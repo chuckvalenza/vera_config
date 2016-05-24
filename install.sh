@@ -17,3 +17,4 @@ then
 fi
 
 sudo cp cv_lint $VERA_ROOT/profiles/
+sudo cp CV001.tcl $VERA_ROOT/scripts/rules/
