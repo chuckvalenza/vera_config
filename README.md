@@ -4,7 +4,7 @@ Rules for the vera++ C/C++ linter which conform to my coding style.
 
 ###Installation
 
-*Install vera++*
+**Install vera++**
 
 debian-based:
 ```
@@ -16,7 +16,7 @@ rhel-based:
 # yum install vera++
 ```
 
-*Install profile as default*
+**Install profile as default**
 ```
 $ git clone https://github.com/chuckvalenza/vera_config.git
 $ cd vera_config
