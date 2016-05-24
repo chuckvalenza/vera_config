@@ -13,7 +13,7 @@ exists=`grep "alias vera++" $rc | wc -l`
 
 if [ $exists -ne 1 ]
 then
-    echo "alias vera++='vera++ -p cv_lint -P max-line-length=80'" >> $rc
+    echo "alias vera++='vera++ -p cv_lint -P max-line-length=80 -P strict-trailing-space=1'" >> $rc
 fi
 
 sudo cp cv_lint $VERA_ROOT/profiles/
